@@ -13,10 +13,6 @@ Install python version 2.7
 * DSpace Dublin Core metadata are generated based on each PDF's filename. 
 <br>
 
-![Exam File Naming Convention](exam-pdf-filename-conventions.png)
-
-<br>
-
 _Example:_ 
 Campus C, they should use "au" for August and "ap" for April to properly distinguish these two months. 
 
