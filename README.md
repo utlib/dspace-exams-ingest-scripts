@@ -1,8 +1,10 @@
 # Exam metadata generation and ingest for DSpace
 
-## Installation
+## Pre-requisites 
 
 Install python version 2.7
+Install beautifulsoup
+Install lxml
 
 ## Workflow
 
