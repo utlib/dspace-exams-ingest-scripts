@@ -2,9 +2,9 @@
 
 ## Pre-requisites 
 
-Install python version 2.7
-Install beautifulsoup
-Install lxml
+* Install python version 2.7
+* Install beautifulsoup
+* Install lxml
 
 ## Workflow
 
