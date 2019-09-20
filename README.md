@@ -41,11 +41,7 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 
 [detailed exam file naming convention found here](exam-pdf-filename-conventions.png)
 
-### 2. Retrieve Exams
-* Receive scanned exams in PDF format from campuses A, B, C
-* Print exams are received as a batch once a year from campus A and 3 times a year from campus C. 
-
-### 3. Generate metadata 
+### 2. Generate metadata 
 * Once exams are received in PDF format from campuses A, B or C file metadata is generated
 * Dublin Core metadata is generated from the file names using beautiful soup 
 * The script also uses a CSV file of departmental codes per campus for mapping
@@ -54,10 +50,10 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 
 [sample generated metadata file found here](mat700h-ap18.xml)
 
-### 4. DSpace Simple Archive
+### 3. DSpace Simple Archive
 * step2.py script is used to package the PDFs and metadata into DSpace simple archives for ingest
 
-### 5. Batch Import Into TSpace
+### 4. Batch Import Into TSpace
 * DSpace simple archives are imported into their respective collections via batch import
 * Collections older than 3 years old are removed
 
