@@ -47,9 +47,5 @@ _(Attached in this repository are sample .csv files for Campus A, B & C)_
 
 2. `python step2.py '/directory_path_to_pdf_exams/`
 
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 DSpace Simple Archives Importer is licensed under Apache License 2.0.
