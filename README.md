@@ -1,7 +1,7 @@
 # Exam metadata generation and ingest for DSpace
 
-
-
+The Old Exams Repository is maintained by the University of Toronto Libraries. 
+It contains the 3 most recent years of exams.
 
 ## System Requirements
 
@@ -11,7 +11,9 @@
 
 ## Installation
 
-Clone or download the scripts to your local repository. Ensure you have a the prequistie software installed before running the scripts. You must run step1.py before running step2.py, there are more details below about the usage and workflow.
+Clone or download the scripts to your local repository. Ensure you have a the pre-requistie software installed before running the scripts. 
+
+You must run step1.py before running step2.py, there are more details below about the usage and workflow.
 
 ## Usage
 
