@@ -23,6 +23,7 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 * Print exams are received as a batch once a year from campus A and 3 times a year from campus C. 
 
 ### Generate metadata 
+* Run step1.py to generate metadata
 * Dublin Core metadata is generated from the file names using step1.py with Beautiful Soup library
 * The script also uses a CSV file of departmental codes per campus for mapping
 <br>
