@@ -52,8 +52,6 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 
 <br>
 
-_(Attached in this repository are sample .csv files for Campus A, B & C)_
-
 [sample generated metadata file found here](mat700h-ap18.xml)
 
 ### 4. DSpace Simple Archive
