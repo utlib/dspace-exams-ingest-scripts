@@ -7,8 +7,7 @@ Install python version 2.7
 ## Workflow
 
 ### Scanning & Filenaming
-
-* Receive scanned exams in PDF format from campuses A, B, C
+* Exams are scanned into PDF with file names
 * Each PDF file must contain the course code, month and year.
 * DSpace Dublin Core metadata are generated based on each PDF's filename. 
 <br>
@@ -17,6 +16,7 @@ _Example:_
 Campus C, they should use "au" for August and "ap" for April to properly distinguish these two months. 
 
 ### Retrieve Exams
+* Receive scanned exams in PDF format from campuses A, B, C
 * Print exams are received as a batch once a year from campus A and 3 times a year from campus C. 
 
 ### Generate metadata 
@@ -34,6 +34,10 @@ _(Attached in this repository are sample .csv files for Campus A, B & C)_
 * Collections older than 3 years old are removed
 
 ## Usage
+
+1. `python step1.py /directory_path_to_pdf_exams/ campus[A, B or C]`
+
+2. `python step2.py '/directory_path_to_pdf_exams/`
 
 
 ## Contributing
