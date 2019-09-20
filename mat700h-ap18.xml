@@ -1,0 +1,23 @@
+<dublin_core schema="dc">
+ <dcvalue element="contributor" qualifier="other">
+  Mathematics 
+ </dcvalue>
+ <dcvalue element="contributor" qualifier="other">
+  Campus C
+ </dcvalue>
+ <dcvalue element="title" qualifier="none">
+  MAT700H - April 2018
+ </dcvalue>
+ <dcvalue element="date" qualifier="issued">
+  2018-04
+ </dcvalue>
+ <dcvalue element="language" qualifier="iso">
+  en_ca
+ </dcvalue>
+ <dcvalue element="type" qualifier="none">
+  exam
+ </dcvalue>
+ <dcvalue element="subject" qualifier="none">
+  MAT700H
+ </dcvalue>
+</dublin_core>
