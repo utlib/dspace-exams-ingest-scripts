@@ -1,6 +1,6 @@
 # Exam metadata generation and ingest for DSpace
 
-## Pre-requisites 
+## System Requirements
 
 * Install python version 2.7
 * Install beautifulsoup
