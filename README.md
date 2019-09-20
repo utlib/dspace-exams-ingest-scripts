@@ -15,6 +15,9 @@ Install python version 2.7
 _Example:_ 
 Campus C, they should use "au" for August and "ap" for April to properly distinguish these two months. 
 
+
+[detailed exam file naming convention found here](exam-pdf-filename-conventions.png)
+
 ### Retrieve Exams
 * Receive scanned exams in PDF format from campuses A, B, C
 * Print exams are received as a batch once a year from campus A and 3 times a year from campus C. 
@@ -25,6 +28,8 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 <br>
 
 _(Attached in this repository are sample .csv files for Campus A, B & C)_
+
+[sample metadata file found here](mat700h-ap18.xml)
 
 ### DSpace Simple Archive
 * step2.py script is used to package the PDFs and metadata into DSpace simple archives for ingest
