@@ -1,7 +1,9 @@
 # Exam metadata generation and ingest for DSpace
 
-The Old Exams Repository is maintained by the University of Toronto Libraries. 
-It contains the 3 most recent years of exams.
+This is a generalized workflow followed by the University of Toronto Libraries for its DSpace-based repository of previous exam questions from its 3 campuses.
+
+- **step1.py** creates Dubin Core metadata from PDF's filename + department code in the spreadsheets based on the campus. 
+- **step2.py** packages DSpace simple archive that consists of the PDF, DC metadata in XML and "content" file. These archives can then be imported using the DSpace admin batch import functionality.
 
 ## System Requirements
 
@@ -30,32 +32,23 @@ You must run step1.py before running step2.py, there are more details below abou
 ## Workflow
 
 ### 1. Scanning & Filenaming
-* Exams are scanned into PDF with file names
+* Exams are scanned/created in PDF with file names based on this [file naming convention](exam-pdf-filename-conventions.png) 
 * Each PDF file must contain the course code, month and year.
-* DSpace Dublin Core metadata are generated based on each PDF's filename. 
 <br>
 
-_Example:_ 
-Campus C, they should use "au" for August and "ap" for April to properly distinguish these two months. 
-
-
-[detailed exam file naming convention found here](exam-pdf-filename-conventions.png)
-
 ### 2. Generate metadata 
-* Once exams are received in PDF format from campuses A, B or C file metadata is generated
-* Dublin Core metadata is generated from the file names using beautiful soup 
+* Run step1.py to generate metadata from PDF's filename 
 * The script also uses a CSV file of departmental codes per campus for mapping
 
 <br>
 
 [sample generated metadata file found here](mat700h-ap18.xml)
 
-### 3. DSpace Simple Archive
-* step2.py script is used to package the PDFs and metadata into DSpace simple archives for ingest
+### 3. Package DSpace Simple Archive
+* Run step2.py script to package the PDFs and metadata into DSpace simple archives for ingest
 
 ### 4. Batch Import Into TSpace
-* DSpace simple archives are imported into their respective collections via batch import
-* Collections older than 3 years old are removed
+* Import DSpace simple archives into their respective collections via DSpace batch import
 
 ---
 
