@@ -12,6 +12,11 @@ Install python version 2.7
 * Each PDF file must contain the course code, month and year.
 * DSpace Dublin Core metadata are generated based on each PDF's filename. 
 <br>
+
+![Exam File Naming Convention](exam-pdf-filename-conventions.png)
+
+<br>
+
 _Example:_ 
 Campus C, they should use "au" for August and "ap" for April to properly distinguish these two months. 
 
@@ -22,6 +27,7 @@ Campus C, they should use "au" for August and "ap" for April to properly disting
 * Dublin Core metadata is generated from the file names using step1.py with Beautiful Soup library
 * The script also uses a CSV file of departmental codes per campus for mapping
 <br>
+
 _(Attached in this repository are sample .csv files for Campus A, B & C)_
 
 ### DSpace Simple Archive
