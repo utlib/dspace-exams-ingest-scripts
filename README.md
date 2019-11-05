@@ -7,7 +7,7 @@ This is a generalized workflow followed by the University of Toronto Libraries f
 
 ## System Requirements
 
-* [Python version 2.7](https://www.python.org/download/releases/2.7/)
+* [Python version 3](https://www.python.org/downloads/)
 * [Beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [lxml](https://pypi.org/project/lxml/)
 
